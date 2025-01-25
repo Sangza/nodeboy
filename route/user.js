@@ -1,6 +1,4 @@
-const auth = require('../middleware/auth')
-const config = require('config');
-const jwt = require('jsonwebtoken');
+const auth = require('../middleware/auth');
 const bcrypt = require('bcrypt');
 const _ = require('lodash')
 const express = require('express');
